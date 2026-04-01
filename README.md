@@ -15,23 +15,25 @@ Python 3.11 o superior.
 Librerías principales: pandas, numpy, sklearn, matplotlib, seaborn.
 
 ## Instalación
-Clona o descarga este repositorio.
+### Clona o descarga este repositorio.
 
-Crea un entorno virtual (opcional pero recomendado):
+### Crea un entorno virtual (opcional pero recomendado):
 
 python -m venv env
 source env/bin/activate
 
-Instala las dependencias necesarias:
+### Instala las dependencias necesarias:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## Flujo del Proyecto
 El notebook sigue una metodología dividida en:
 
-### Limpieza y Curaduría: Corrección de formatos de fecha, eliminación de nulos y normalización de registros.
+### Limpieza y Curaduría: 
+Corrección de formatos de fecha, eliminación de nulos y normalización de registros.
 
-### Análisis RFM: Cálculo de Recencia, Frecuencia (basada en transacciones únicas) y Valor Monetario.
+### Análisis RFM: 
+Cálculo de Recencia, Frecuencia (basada en transacciones únicas) y Valor Monetario.
 
 ### Segmentación (K-Means):
 
@@ -51,9 +53,11 @@ Comparativa entre Regresión Logística, SVM y Random Forest.
 Ajuste de hiperparámetros en Random Forest buscando el equilibrio óptimo entre Precision y Recall.
 
 ## Resultados Clave
-Modelo Final: Random Forest Optimizado.
+### Modelo Final
+Random Forest Optimizado.
 
-ROC-AUC: 0.855, demostrando una alta capacidad de discriminación para predecir futuros clientes VIP.
+### ROC-AUC
+0.855, demostrando una alta capacidad de discriminación para predecir futuros clientes VIP.
 
 ## Segmentos Identificados:
 
