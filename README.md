@@ -65,7 +65,7 @@ Cluster 0: Ocasionales/Nuevos (Potencial de crecimiento).
 
 Cluster 1: Hibernando/Perdidos (Riesgo de abandono).
 
-Ejecución
+## Ejecución
 Para correr el análisis, abre el notebook y ejecuta las celdas secuencialmente:
 
 Bash
